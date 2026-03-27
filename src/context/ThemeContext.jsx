@@ -16,8 +16,8 @@ export function ThemeProvider({ children }) {
   const primaryLow   = `rgba(${primaryRgb},0.3)`;
 
   // Logo switching (FIXED)
-  const riddlerLogo = "/src/assets/logo.png";
-  const batmanLogo  = "/src/assets/batman_logo.png";
+  const riddlerLogo = "/landing_page/logo.png";
+  const batmanLogo  = "/landing_page/batman_logo.png";
   const logo = isBatman ? batmanLogo : riddlerLogo;
 
   return (
